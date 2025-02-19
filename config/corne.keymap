@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1          &kp N2           &kp N3           &kp N4           &kp N5             &kp N6         &kp N7         &kp N8           &kp N9           &kp N0           &kp BSPC
-&kp RCTRL  &bt BT_SEL 0    &kp C_AL_LOCK    &kp LT           &kp GT           &kp K_POWER        &kp LEFT       &kp DOWN       &kp UP           &kp RIGHT        &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
-&kp LSHFT  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_OFF    &kp RA(RC(E))  &kp RA(RC(G))  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &bt BT_CLR_ALL   &bootloader
-                                            &kp LGUI         &trans           &kp SPACE          &kp RET        &trans         &kp RALT
+&kp TAB    &kp N1          &kp N2          &kp N3          &kp N4          &kp N5           &kp N6         &kp N7         &kp N8           &kp N9           &kp N0           &kp BSPC
+&kp RCTRL  &bt BT_SEL 0    &kp RG(RS(V))   &kp RG(V)       &kp RG(C)       &kp RG(X)        &kp LEFT       &kp DOWN       &kp UP           &kp RIGHT        &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
+&kp LSHFT  &rgb_ug RGB_ON  &kp RG(RS(N5))  &kp RG(RS(N2))  &kp RG(RS(N3))  &kp RG(RC(Q))    &kp RA(RC(E))  &kp RA(RC(G))  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &bt BT_CLR_ALL   &bootloader
+                                           &kp LGUI        &trans          &kp SPACE        &kp RET        &trans         &kp RALT
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL            &kp AT              &kp HASH          &kp DLLR             &kp PRCNT         &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp RC(DOWN_ARROW)  &kp RC(LEFT_ARROW)  &kp RC(UP_ARROW)  &kp RC(RIGHT_ARROW)  &trans            &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans              &trans              &kp RS(RG(N2))    &kp RG(RS(N3))       &kp RS(RG(N5))    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                                   &kp LGUI          &trans               &kp SPACE         &kp RET    &trans     &kp RALT
+&kp TAB    &kp EXCL            &kp AT              &kp HASH          &kp DLLR             &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &kp RC(DOWN_ARROW)  &kp RC(LEFT_ARROW)  &kp RC(UP_ARROW)  &kp RC(RIGHT_ARROW)  &rgb_ug RGB_SAI    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &rgb_ug RGB_HUI     &rgb_ug RGB_BRD     &rgb_ug RGB_BRI   &rgb_ug RGB_ON       &rgb_ug RGB_OFF    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                                   &kp LGUI          &trans               &kp SPACE          &kp RET    &trans     &kp RALT
             >;
         };
     };
