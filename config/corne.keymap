@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    macros {
+        mac: mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp D &kp V &kp C &kp ENTER>;
+            label = "MAC";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -37,7 +46,7 @@
 
             bindings = <
 &kp TAB    &kp N1          &kp N2          &kp N3          &kp N4          &kp N5           &kp N6         &kp N7         &kp N8           &kp N9           &kp N0           &kp BSPC
-&kp RCTRL  &kp RG(RS(V))   &kp RG(A)       &kp RG(V)       &kp RG(C)       &kp RG(X)        &kp LEFT       &kp DOWN       &kp UP           &kp RIGHT        &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
+&mac       &kp RG(RS(V))   &kp RG(A)       &kp RG(V)       &kp RG(C)       &kp RG(X)        &kp LEFT       &kp DOWN       &kp UP           &kp RIGHT        &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
 &kp LSHFT  &rgb_ug RGB_ON  &kp RG(RS(N5))  &kp RG(RS(N2))  &kp RG(RS(N3))  &kp RG(RC(Q))    &kp RA(RC(E))  &kp RA(RC(G))  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &bt BT_SEL 0     &bt BT_CLR_ALL
                                            &kp LGUI        &trans          &kp SPACE        &kp RET        &trans         &kp RALT
             >;
