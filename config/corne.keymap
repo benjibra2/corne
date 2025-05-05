@@ -45,9 +45,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1          &kp N2          &kp N3          &kp N4          &kp N5           &kp N6         &kp N7         &kp N8           &kp N9           &kp N0           &kp BSPC
-&kp RG(X)  &kp RG(RS(V))   &kp RG(A)       &kp RG(V)       &kp RG(C)       &mac             &kp LEFT       &kp DOWN       &kp UP           &kp RIGHT        &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
-&kp LSHFT  &rgb_ug RGB_ON  &kp RG(RS(N5))  &kp RG(RS(N2))  &kp RG(RS(N3))  &kp RG(RC(Q))    &kp RA(RC(E))  &kp RA(RC(G))  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &bt BT_SEL 0     &bt BT_CLR_ALL
+&kp TAB    &kp N1          &kp N2          &kp N3          &kp N4          &kp N5           &kp N6         &kp N7         &kp N8         &kp N9         &kp N0           &kp BSPC
+&kp RG(X)  &kp RG(RS(V))   &kp RG(A)       &kp RG(V)       &kp RG(C)       &mac             &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &rgb_ug RGB_SAI  &rgb_ug RGB_SAD
+&kp LSHFT  &rgb_ug RGB_ON  &kp RG(RS(N5))  &kp RG(RS(N2))  &kp RG(RS(N3))  &kp RG(RC(Q))    &kp RA(RC(E))  &kp RA(RC(G))  &kp LA(LC(T))  &kp LA(LC(D))  &bt BT_SEL 0     &kp F3
                                            &kp LGUI        &trans          &kp SPACE        &kp RET        &mo 3          &kp RALT
             >;
         };
@@ -71,7 +71,7 @@
             bindings = <
 &trans           &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans        &trans        &trans
 &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_BRI    &trans  &trans  &trans  &trans        &trans        &trans
-&trans           &trans           &trans           &trans           &trans           &rgb_ug RGB_BRD    &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR_ALL
+&trans           &trans           &trans           &trans           &rgb_ug RGB_TOG  &rgb_ug RGB_BRD    &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_CLR_ALL
                                                    &trans           &trans           &trans             &trans  &trans  &trans
             >;
         };
